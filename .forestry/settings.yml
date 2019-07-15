@@ -7,9 +7,13 @@ sections:
 - type: jekyll-pages
   label: Pages
   create: all
+  templates:
+  - default
 - type: jekyll-posts
   label: Posts
   create: all
+  templates:
+  - default
 upload_dir: assets/img
 public_path: ''
 front_matter_path: ''
