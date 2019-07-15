@@ -8,3 +8,30 @@ fields:
 - type: text
   name: title
   label: title
+- name: categories
+  type: text
+  config:
+    required: false
+  label: categories
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: image
+- name: author
+  type: select
+  default: Gerard Anton
+  config:
+    required: false
+    options:
+    - Gerard Anton
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: author
