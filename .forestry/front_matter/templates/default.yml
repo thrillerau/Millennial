@@ -3,9 +3,6 @@ label: Default
 hide_body: false
 fields:
 - type: text
-  name: layout
-  label: layout
-- type: text
   name: title
   label: title
 - name: categories
@@ -35,3 +32,17 @@ fields:
       file: 
       path: 
   label: author
+- name: layout
+  type: select
+  default: post
+  config:
+    required: true
+    options:
+    - post
+    - page
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: layout
