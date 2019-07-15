@@ -4,7 +4,7 @@ author: Gerard Anton
 layout: post
 title: Catamarans vs Monohulls
 categories: ''
-image: "/uploads/Mondomarine-SF40-Serenity-Superyacht-Exterior-Legatto-Lifestyle-4.jpg"
+image: "/assets/img/060216-9K-Shootout-Harley-Iron-883-12.jpg"
 
 ---
 This boat is awesome.
