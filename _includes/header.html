@@ -3,8 +3,10 @@
     <a href="{{ site.github.url }}/">{{ site.title }}</a>
   </h3>
   <nav class="menu-list">
-    {% for item in site.data.settings.menu %}
+    {% for item in site.menus.header %}
+    <li class="menu-item-{{ loop.index }}">
       <a href="{{ site.github.url }}/{{ item.folder }}/{{ item.file }}" class="menu-link">{{ item.name }}</a>
+    </li>
     {% endfor %}
 
     {% for item in site.data.settings.social %}
