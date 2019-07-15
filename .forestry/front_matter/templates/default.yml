@@ -46,5 +46,17 @@ fields:
       file: 
       path: 
   label: layout
-pages:
-- _posts/bike.md
+- name: menus
+  type: select
+  default: ''
+  config:
+    required: false
+    options:
+    - header
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: menus
+  hidden: false
